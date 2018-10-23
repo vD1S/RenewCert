@@ -6,8 +6,6 @@ renewcert <OldCertificate>.pfx <NewCertificate>.pfx CN=<NewCertificateName> <Pas
 
 EXAMPLE
 
-renewcert My_TemporaryKeyPfx.pfx My_TemporaryKeyPfx.pfx CN=<NewCertificateName> <Password> 
+renewcert a.pfx My_TemporaryKeyPfx.pfx CN=Name Password
 
-
-
-D:\RenewCert\RenewCert\Debug>RenewCert.exe D:\DemoGetMasterThumbnails_2_TemporaryKey.pfx d:\DemoGetMasterThumbnails_til_2112_TemporaryKey.pfx CN=DemoGetMasterThumbnails_TemporaryKey_til_2112 password 
+经测试旧证书名称有下划线的时候会失败 如 Ar_ERP_3_TemporaryKey
